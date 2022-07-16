@@ -28,6 +28,7 @@
     border: 7px solid rgba(0, 0, 0, 0.3);
     padding: 20px 40px;
     border-radius: 40px;
+    width: 300px;
 }
 
 .timer {
@@ -36,6 +37,10 @@
 
 .control-icons {
     display: grid;
-    grid-template-columns: repeat(3, min-content);
+    grid-template-columns: repeat(2, min-content);
     gap: 20px;
+}
+
+.controls {
+    cursor: pointer;
 }
